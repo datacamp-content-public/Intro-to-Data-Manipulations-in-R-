@@ -10,7 +10,7 @@ type: NormalExercise
 lang: r
 xp: 100 
 skills: 1
-key: 18cdf536c1   
+key: cca3402866   
 ```
 
 
@@ -67,6 +67,60 @@ The instructions that follow should be in bullet point form with clear guidance 
 ```{r}
 # Update this to something more informative.
 success_msg("Some praise! Then reinforce a learning objective from the exercise.")
+```
+
+
+`@possible_answers`
+
+
+`@feedback`
+
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: b79a416661   
+```
+
+
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
+
+```
+
+
+`@solution`
+
+```{r}
+
+```
+
+
+`@sct`
+
+```{r}
+
 ```
 
 
