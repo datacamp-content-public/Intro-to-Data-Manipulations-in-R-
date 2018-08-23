@@ -1,15 +1,56 @@
 ---
-title: testing
+title: 'Chapter 1: R Basics'
 description: ""
 ---
 
-## Introduction to R
+## Insert exercise title here
 
 ```yaml
-type: VideoExercise 
-xp: 50 
-key: ab58dc4b99   
+type: NormalExercise 
+xp: 100 
+key: 2fff329b50   
 ```
 
-`@projector_key`
-0ed98b6894feb9bace7e6ceb86591dbc
+
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
+
+```
+
+
+`@solution`
+
+```{r}
+
+```
+
+
+`@sct`
+
+```{r}
+
+```
+
+
+`@possible_answers`
+
+
+`@feedback`
+
