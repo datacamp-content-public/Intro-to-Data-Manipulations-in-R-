@@ -3,7 +3,7 @@ title: Insert title here
 key: 0ed98b6894feb9bace7e6ceb86591dbc
 
 ---
-## Data Manipulations
+## Data Manipulation
 
 ```yaml
 type: "TitleSlide"
@@ -21,10 +21,7 @@ title: Instructor
 
 
 ---
-##  Some potential issues when manipulating data using Excel:
-
-
-
+## Some potential issues when manipulating data using Excel:
 
 ```yaml
 type: "FullSlide"
@@ -38,7 +35,7 @@ key: "883bb9005a"
 
 - If you want to change the layout of your data table, doing so can be quite cumbersome and time-consuming.
 
-- Frequently, repetitive operations needs to be done as the data gets updated (e.g. produce a new pivot tables).
+- Consolidating and updating information frequently involve  manual and repetitive operations prompt to human errors.
 
 
 `@script`
