@@ -85,8 +85,7 @@ For instance, you can create a new object called "four" which will be equal to 2
 Please create a new object called _five_, which is the result of dividing ten between two.
 
 `@hint`
-The operator for divisions is /
-For instance dividing four by two would be `4/2`
+The operator for divisions is ( / ). For instance dividing four by two would be `4/2`
 
 `@pre_exercise_code`
 
