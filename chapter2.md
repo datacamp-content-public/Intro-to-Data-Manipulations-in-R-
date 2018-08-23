@@ -12,9 +12,9 @@ key: 2fff329b50
 ```
 
 
-R is a command line driven program. It means that you enter your commands at a prompt (Console), and an output is produced once you press "Enter".
+R is a command line driven program. It means that you enter your commands at a prompt (R Console), and an output is produced after you press "Enter".
 
-Normally, people write their codes in a "Script.R" file, which is equivalent to a text file. That allows the user to save their code, and keep working on data later on.  
+Normally, people write their codes in a "Script.R" file, which is equivalent to a text file. That allows the user to save their code to work on it later on.  
 
 In you right hand side you see both the _Sript.R_ file, and the _R Console_. You can write your code in the _Srcipt.R_ window and see the output of your code in the _R Console_ by pressing the button **Run Code.**
 
