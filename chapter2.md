@@ -63,3 +63,104 @@ Once you see the output press **"Submit Answer"**
 `@feedback`
 
 
+---
+
+## Creating a new variable
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: 5a775cde05   
+```
+
+
+You can the assignment operator **<-** to create new variables.
+
+For instance you can create a new object called "four" which will be equal to 2+2:
+
+`four <- 2+2`
+
+
+`@instructions`
+Please create a new object called _five_, which is the result of dividing
+
+`@hint`
+The operator for divisions is /
+For instance dividing four by two would be `4/2`
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
+
+```
+
+
+`@solution`
+
+```{r}
+five <- 10 / 2
+```
+
+
+`@sct`
+
+```{r}
+5
+```
+
+
+---
+
+## Explore data
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: 5587700676   
+```
+
+
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
+
+```
+
+
+`@solution`
+
+```{r}
+
+```
+
+
+`@sct`
+
+```{r}
+
+```
+
+
