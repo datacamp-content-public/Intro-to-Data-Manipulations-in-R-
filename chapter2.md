@@ -107,6 +107,7 @@ The operator for divisions is ( / ). For instance dividing four by two would be 
 
 ```{r}
 five <- 10 / 2
+five
 ```
 
 
