@@ -129,7 +129,10 @@ key: 5587700676
 ```
 
 
-
+nrows
+ncol
+head
+names
 
 
 `@instructions`
