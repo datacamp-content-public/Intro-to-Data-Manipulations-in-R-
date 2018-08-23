@@ -74,15 +74,15 @@ key: 5a775cde05
 ```
 
 
-You can the assignment operator **<-** to create new variables.
+You can use the assignment operator ( <- ) to create new variables.
 
-For instance you can create a new object called "four" which will be equal to 2+2:
+For instance, you can create a new object called "four" which will be equal to 2+2:
 
 `four <- 2+2`
 
 
 `@instructions`
-Please create a new object called _five_, which is the result of dividing
+Please create a new object called _five_, which is the result of dividing ten between two.
 
 `@hint`
 The operator for divisions is /
