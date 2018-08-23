@@ -22,6 +22,10 @@ In you right hand side you see both the _Sript.R_ file, and the _R Console_. You
 `@instructions`
 Please write the following command in the Script.R window and see the output in your R Console
 
+`` 2+2 ``
+
+Once you see the output press **"Submit Answer"**
+
 `@hint`
 
 
@@ -42,7 +46,7 @@ Please write the following command in the Script.R window and see the output in 
 `@solution`
 
 ```{r}
-4
+2+2
 ```
 
 
