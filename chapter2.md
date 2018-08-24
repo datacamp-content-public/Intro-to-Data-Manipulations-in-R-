@@ -118,7 +118,7 @@ five
 `@sct`
 
 ```{r}
-test_correct(5)
+
 ```
 
 
