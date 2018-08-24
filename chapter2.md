@@ -53,7 +53,8 @@ Once you see the output press **"Submit Answer"**
 `@sct`
 
 ```{r}
-4
+ex() %>% check_equal(4)
+success_msg("amazing!")
 ```
 
 
