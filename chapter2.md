@@ -39,7 +39,8 @@ Once you see the output press **"Submit Answer"**
 `@sample_code`
 
 ```{r}
-# Write your code here
+# Write your code below
+___ + ___
 ```
 
 
