@@ -40,7 +40,7 @@ Once you see the output press **"Submit Answer"**
 
 ```{r}
 # Write your code below
-___ + ___
+
 ```
 
 
@@ -102,7 +102,7 @@ The operator for divisions is ( / ). For instance dividing four by two would be 
 
 ```{r}
 # Define new object called five:
-___ <- ___
+
 
 
 # Evaluate your new object
@@ -151,7 +151,7 @@ names
 `@pre_exercise_code`
 
 ```{r}
-
+mtcars
 ```
 
 
