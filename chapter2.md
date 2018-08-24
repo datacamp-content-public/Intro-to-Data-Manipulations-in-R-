@@ -46,15 +46,15 @@ Once you see the output press **"Submit Answer"**
 `@solution`
 
 ```{r}
-2+2
+4
 ```
 
 
 `@sct`
 
 ```{r}
-ex() %>% check_equal(4)
-success_msg("amazing!")
+
+
 ```
 
 
