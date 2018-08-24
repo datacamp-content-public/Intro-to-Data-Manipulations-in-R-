@@ -208,7 +208,7 @@ c)
 `@pre_exercise_code`
 
 ```{r}
-data<-mtcars
+cars<-mtcars
 ```
 
 
