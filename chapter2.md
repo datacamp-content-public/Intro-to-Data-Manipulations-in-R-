@@ -136,6 +136,9 @@ key: 5587700676
 ```
 
 
+We have create a new object called `data`. It contains a table (or dataframe as it is called in R) with information about different cars.
+
+You can see 
 nrows
 ncol
 head
@@ -143,7 +146,7 @@ names
 
 
 `@instructions`
-
+dsafsda
 
 `@hint`
 
@@ -151,7 +154,7 @@ names
 `@pre_exercise_code`
 
 ```{r}
-mtcars
+data<-mtcars
 ```
 
 
@@ -173,6 +176,47 @@ mtcars
 
 ```{r}
 
+```
+
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: MultipleChoiceExercise 
+xp: 50 
+key: 6f1a42095c   
+```
+
+
+afdfddf
+a)  k
+b)
+c)
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sct`
+
+```{r}
+msg1 = "Incorrect. Python can do simple and quick calculations, but it is much more than that!"
+msg2 = "Incorrect. There is a very popular framework to build database-driven websites (Django), but Python can do much more."
+msg3 = "Incorrect. Python is a powerful tool to do data analysis, but you can also use it for other ends."
+msg4 = "Correct! Python is an extremely versatile language."
+test_mc(4, list(msg1, msg2, msg3, msg4))
 ```
 
 
