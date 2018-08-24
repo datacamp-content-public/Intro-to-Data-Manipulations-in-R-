@@ -197,7 +197,10 @@ c)
 
 
 `@instructions`
-
+- A
+- [B (correct one)]
+- C
+- D
 
 `@hint`
 
@@ -205,7 +208,7 @@ c)
 `@pre_exercise_code`
 
 ```{r}
-
+data<-mtcars
 ```
 
 
