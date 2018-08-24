@@ -99,7 +99,11 @@ The operator for divisions is ( / ). For instance dividing four by two would be 
 `@sample_code`
 
 ```{r}
+# Define new object called five:
+___ <- ___
 
+
+# Evaluate your new object
 ```
 
 
@@ -114,7 +118,7 @@ five
 `@sct`
 
 ```{r}
-5
+test_correct(5)
 ```
 
 
