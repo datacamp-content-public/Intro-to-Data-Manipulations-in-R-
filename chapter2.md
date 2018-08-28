@@ -135,9 +135,9 @@ key: 5587700676
 ```
 
 
-We have created a new object called `data`. It contains a table (or dataframe as it is called in R) with information about different cars.
+We have created a new object called `cars`. It contains a table (or dataframe as it is called in R) with information about different cars.
 
-You can explore the first 6 records contained in the object `data`, by using the function:
+You can explore the first 6 records contained in the object `cars`, by using the function:
 `head()`
 
 
@@ -150,7 +150,7 @@ To explore a dataframe called 'x' you would use `head(x)`
 `@pre_exercise_code`
 
 ```{r}
-data<-mtcars
+cars<-mtcars
 ```
 
 
@@ -165,7 +165,7 @@ data<-mtcars
 `@solution`
 
 ```{r}
-head(data)
+head(cars)
 ```
 
 
@@ -197,9 +197,9 @@ Please indicate how many cars (records) appear in the object 'data':
 
 
 `@instructions`
-- 14 cars
-- 18 cars
-- 16 cars
+- 25 cars
+- 28 cars
+- 32 cars
 
 `@hint`
 Use the function `nrow()` to explore the cumber of cars.
@@ -214,11 +214,9 @@ cars<-mtcars
 `@sct`
 
 ```{r}
-msg1 = "Incorrect" 
-msg2 = "Correct"
-msg3 = "Incorrect"
-msg4 = "Correct"
-test_mc(4, list(msg1, msg2, msg3, msg4))
+test_output_contains("25 cars", incorrect_msg = "Incorrect answer. Try again")
+test_output_contains("28 cars", incorrect_msg = "Incorrect answer. Try again")
+success_msg("Correct!)
 ```
 
 
