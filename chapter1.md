@@ -3,7 +3,7 @@ title: Introduction
 description: ""
 ---
 
-## Insert exercise title here
+## Introduction to R
 
 ```yaml
 type: VideoExercise 
