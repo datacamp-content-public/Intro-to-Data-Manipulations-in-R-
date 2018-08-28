@@ -193,13 +193,13 @@ Other useful options to explore a dataframe are:
 - `ncol()`  return the number of columns (variables)
 - `names()` return the names of the columns (variables) 
 
-Please indicate how many cars (records) appear in the object 'data':
+Please indicate how many cars (records) appear in the object 'cars':
 
 
 `@instructions`
-- 25 cars
-- 28 cars
-- 32 cars
+1. 25 cars
+2. 28 cars
+3. 32 cars
 
 `@hint`
 Use the function `nrow()` to explore the cumber of cars.
@@ -208,42 +208,6 @@ Use the function `nrow()` to explore the cumber of cars.
 
 ```{r}
 cars<-mtcars
-```
-
-
-`@sct`
-
-```{r}
-test_output_contains("25 cars", incorrect_msg = "Incorrect answer. Try again")
-test_output_contains("28 cars", incorrect_msg = "Incorrect answer. Try again")
-success_msg("Correct!)
-```
-
-
----
-
-## Insert exercise title here
-
-```yaml
-type: MultipleChoiceExercise 
-xp: 50 
-key: 53b2aa63dc   
-```
-
-
-
-
-
-`@instructions`
-
-
-`@hint`
-
-
-`@pre_exercise_code`
-
-```{r}
-
 ```
 
 
