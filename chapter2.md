@@ -14,7 +14,7 @@ key: 2fff329b50
 
 R is a command line driven program. It means that you enter your commands at a prompt (R Console), and an output is produced after you press "Enter".
 
-Normally, people write their codes in a "Script.R" file, which is equivalent to a text file. That allows the user to save their code to work on it later on.  
+Normally, people write their codes in a "Script.R" file, which is equivalent to a text file. That allows the user to save their code to work on it later.  
 
 In the right hand side, you can see both the _Sript.R_ file, and the _R Console_. You can write your code in the _Srcipt.R_ window and see the output of your code in the _R Console_ by pressing the button **Run Code.**
 
@@ -40,13 +40,14 @@ Once you see the output press **"Submit Answer"**
 
 ```{r}
 # Write your code below
+___ + ___
 ```
 
 
 `@solution`
 
 ```{r}
-4
+2+2
 ```
 
 
@@ -136,7 +137,9 @@ key: 5587700676
 
 We have create a new object called `data`. It contains a table (or dataframe as it is called in R) with information about different cars.
 
-You can see 
+You can explore the first 6 records of contained in `data`, by typing: 
+`head(data)`
+
 nrows
 ncol
 head
@@ -218,6 +221,34 @@ msg2 = "Incorrect. There is a very popular framework to build database-driven we
 msg3 = "Incorrect. Python is a powerful tool to do data analysis, but you can also use it for other ends."
 msg4 = "Correct! Python is an extremely versatile language."
 test_mc(4, list(msg1, msg2, msg3, msg4))
+```
+
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: TabExercise 
+xp: 100 
+key: 0c4481956a   
+```
+
+
+testing
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
+
 ```
 
 
