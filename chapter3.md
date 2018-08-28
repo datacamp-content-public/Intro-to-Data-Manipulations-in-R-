@@ -42,7 +42,7 @@ In addition, you can use `:` to select a range of variables and `-` to exclude s
 
 
 `@instructions`
-
+Using the dataframe `data`, create an new variable called: `new.data` containing the range of columns from the first to the fifth column, excluding Horse Power (hp)
 
 `@hint`
 
@@ -50,13 +50,18 @@ In addition, you can use `:` to select a range of variables and `-` to exclude s
 `@pre_exercise_code`
 
 ```{r}
-cars<-mtcars
+data<-mtcars
 ```
 
 
 `@sample_code`
 
 ```{r}
+# Select first to fifth column excluding hp
+new.data<- ____
+
+# See the output of your code
+head(new.data)
 
 ```
 
@@ -64,7 +69,7 @@ cars<-mtcars
 `@solution`
 
 ```{r}
-
+new.data<- 
 ```
 
 

@@ -135,9 +135,9 @@ key: 5587700676
 ```
 
 
-We have created a new object called `cars`. It contains a table (or dataframe as it is called in R) with information about different cars.
+We have created a new object called `data`. It contains a table (or dataframe as it is called in R) with information about different cars.
 
-You can explore the first 6 records contained in the object `cars`, by using the function:
+You can explore the first 6 records contained in the object `data`, by using the function:
 `head()`
 
 
@@ -150,7 +150,7 @@ To explore a dataframe called 'x' you would use `head(x)`
 `@pre_exercise_code`
 
 ```{r}
-cars<-mtcars
+data<-mtcars
 ```
 
 
@@ -165,7 +165,7 @@ cars<-mtcars
 `@solution`
 
 ```{r}
-head(cars)
+head(data)
 ```
 
 
