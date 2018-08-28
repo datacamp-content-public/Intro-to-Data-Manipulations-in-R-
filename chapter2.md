@@ -137,20 +137,15 @@ key: 5587700676
 
 We have create a new object called `data`. It contains a table (or dataframe as it is called in R) with information about different cars.
 
-You can explore the first 6 records of contained in `data`, by typing: 
-`head(data)`
-
-nrows
-ncol
-head
-names
+You can explore the first 6 records of contained in `data`, by using the function:
+`head()`
 
 
 `@instructions`
-dsafsda
+Explore the layout of the table `` with the function `head()`
 
 `@hint`
-
+To explore a dataframe called 'x' you would use `head(x)`
 
 `@pre_exercise_code`
 
