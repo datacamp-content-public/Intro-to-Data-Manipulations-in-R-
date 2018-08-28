@@ -135,14 +135,14 @@ key: 5587700676
 ```
 
 
-We have create a new object called `data`. It contains a table (or dataframe as it is called in R) with information about different cars.
+We have created a new object called `data`. It contains a table (or dataframe as it is called in R) with information about different cars.
 
-You can explore the first 6 records of contained in `data`, by using the function:
+You can explore the first 6 records contained in the object `data`, by using the function:
 `head()`
 
 
 `@instructions`
-Explore the layout of the table `` with the function `head()`
+Explore the layout of the object `data` using the function `head()`
 
 `@hint`
 To explore a dataframe called 'x' you would use `head(x)`
@@ -157,6 +157,7 @@ data<-mtcars
 `@sample_code`
 
 ```{r}
+# Explore object 'data' using the function head()
 
 ```
 
@@ -164,7 +165,7 @@ data<-mtcars
 `@solution`
 
 ```{r}
-
+head(data)
 ```
 
 
@@ -186,20 +187,22 @@ key: 6f1a42095c
 ```
 
 
-afdfddf
-a)  k
-b)
-c)
+Other useful options to explore a dataframe are:
+
+- `nrow()`  return the number of records (rows)
+- `ncol()`  return the number of columns (variables)
+- `names()` return the names of the columns (variables) 
+
+Please indicate how many cars (records) appear in the object 'data':
 
 
 `@instructions`
-- A
-- [B (correct one)]
-- C
-- D
+- 14 cars
+- 18 cars
+- 16 cars
 
 `@hint`
-
+Use the function `nrow()` to explore the cumber of cars.
 
 `@pre_exercise_code`
 
@@ -211,10 +214,10 @@ cars<-mtcars
 `@sct`
 
 ```{r}
-msg1 = "Incorrect. Python can do simple and quick calculations, but it is much more than that!"
-msg2 = "Incorrect. There is a very popular framework to build database-driven websites (Django), but Python can do much more."
-msg3 = "Incorrect. Python is a powerful tool to do data analysis, but you can also use it for other ends."
-msg4 = "Correct! Python is an extremely versatile language."
+msg1 = "Incorrect" 
+msg2 = "Correct"
+msg3 = "Incorrect"
+msg4 = "Correct"
 test_mc(4, list(msg1, msg2, msg3, msg4))
 ```
 
@@ -224,13 +227,19 @@ test_mc(4, list(msg1, msg2, msg3, msg4))
 ## Insert exercise title here
 
 ```yaml
-type: TabExercise 
-xp: 100 
-key: 0c4481956a   
+type: MultipleChoiceExercise 
+xp: 50 
+key: 53b2aa63dc   
 ```
 
 
-testing
+
+
+
+`@instructions`
+
+
+`@hint`
 
 
 `@pre_exercise_code`
@@ -240,7 +249,7 @@ testing
 ```
 
 
-`@sample_code`
+`@sct`
 
 ```{r}
 
