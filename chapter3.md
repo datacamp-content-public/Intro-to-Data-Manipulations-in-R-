@@ -15,7 +15,7 @@ key: 3769fa8b9b
 dd4e6085bd7725c658ebc41bb0ea17f0
 ---
 
-## Insert exercise title here
+## Selecting variables
 
 ```yaml
 type: NormalExercise 
@@ -24,7 +24,7 @@ key: 6987bd7422
 ```
 
 
-We can subset only the columns (variable) that matter, by using `select()`.
+We can subset the columns (variables) that matter for a given analysis, by using `select()`.
 
 As an example, take the following call, that selects the variables var1 and var2 from the data frame df.
 
@@ -50,6 +50,7 @@ Using the dataframe `data`, create an new variable called: `new.data` containing
 `@pre_exercise_code`
 
 ```{r}
+library(dplyr)
 data<-mtcars
 ```
 
@@ -69,7 +70,7 @@ head(new.data)
 `@solution`
 
 ```{r}
-new.data<- 
+
 ```
 
 
