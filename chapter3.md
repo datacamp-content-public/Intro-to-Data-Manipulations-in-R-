@@ -229,7 +229,7 @@ The following example filters `df` such that only the observations for which a i
 
 
 `@instructions`
-
+Create a new dataset called `cylinders`
 
 `@hint`
 
@@ -266,7 +266,7 @@ data<- mtcars
 
 ---
 
-## Insert exercise title here
+## Combining tests using boolean operators
 
 ```yaml
 type: NormalExercise 
@@ -275,14 +275,13 @@ key: a4256ea51e
 ```
 
 
-Combining tests using boolean operators
-R also comes with a set of boolean operators that you can use to combine multiple logical tests into a single test. These include & (and), | (or), and ! (not). Instead of using the & operator, you can also pass several logical tests to filter(), separated by commas. The following two calls are completely equivalent:
+R also comes with a set of 'boolean operators' that you can use to combine multiple conditions. Examples of these are: `&` (and), `| `(or), and `! `(not). To filter 
 
-filter(df, a > 0 & b > 0)
-filter(df, a > 0, b > 0)
-Next, is.na() will also come in handy. This example keeps the observations in df for which the variable x is not NA:
+`filter(df, a > 0 & b == 'yes')`
 
-filter(df, !is.na(x))
+Another handy function is: `is.na()`. This example keeps the observations in df for which the variable x is not NA:
+
+`filter(df, !is.na(x))`
 
 
 `@instructions`
