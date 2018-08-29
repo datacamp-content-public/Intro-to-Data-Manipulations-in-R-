@@ -346,12 +346,7 @@ new.df<- head(new.df)
 # EXAMPLE 2: Using Piping operator
 new.df<- select(df, mpg, wt) %>% filter(mpg >16) %>% head()
 ```
-Overview of syntax
-As another example of the %>%, 
-
-mean(c(1, 2, 3, NA), na.rm = TRUE)
-c(1, 2, 3, NA) %>% mean(na.rm = TRUE)
-The %>% operator allows you to extract the first argument of a function from the arguments list and put it in front of it, thus solving the Dagwood sandwich problem.
+The second example is more efficient and readable.
 
 
 `@instructions`
