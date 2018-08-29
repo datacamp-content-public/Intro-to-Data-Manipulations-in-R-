@@ -157,14 +157,24 @@ key: 5815ff4cda
 
 Take this example that adds a new column, z, which is the element-wise sum of the columns x and y, to the data frame df:
 
-mutate(df, z = x + y)
+`mutate(df, z = x + y)`
+
+In the previous example, if there was a column already called `z`, R would replace the column values with the new calculation. Otherwise, a new column called `z` will be created with the calculation. 
+
+You can also use mutate() to add multiple variables at once. Just place a comma between each variable that you define inside mutate().
+
+In the following example, a new variable `x` is directly reused to create the new variable `y`:
+
+`mutate(my_data, x = a + b, y = x + c)`
 
 
 `@instructions`
+Create a new object called kilometres. The new object must contain the `data` about cars plus an additional column estimating the kilometres per gallon (kpg) consumed by the vehicles.  
 
+One mile per gallon `(mpg)` is equivalent to 1.609 kpg.
 
 `@hint`
-
+Multiply the column mpg by 1.609 (`mpg * 1.609`)
 
 `@pre_exercise_code`
 
