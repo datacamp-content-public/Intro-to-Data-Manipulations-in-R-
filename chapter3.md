@@ -64,7 +64,6 @@ data<-mtcars
 
 # See the output of your code
 #head(____)
-
 ```
 
 
@@ -123,8 +122,7 @@ data<-mtcars
 `@sample_code`
 
 ```{r}
-# Subset columns starting with 'd' and store them in a new object called 'variables'. 
-
+# Subset columns starting with 'd' and store them in a new object called 'variables'.
 ```
 
 

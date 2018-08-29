@@ -158,7 +158,6 @@ data<-mtcars
 
 ```{r}
 # Explore object 'data' using the function head()
-
 ```
 
 
