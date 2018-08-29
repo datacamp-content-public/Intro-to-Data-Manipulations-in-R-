@@ -24,7 +24,7 @@ key: 6987bd7422
 ```
 
 
-We can subset the columns (variables) that matter for a given analysis, by using `select()`.
+We can subset the columns (variables) that matter by using `select()`.
 
 As an example, take the following call, that selects the variables var1 and var2 from the data frame df.
 
@@ -50,7 +50,8 @@ Using the dataframe `data`, create an new variable called: `new.data` containing
 `@pre_exercise_code`
 
 ```{r}
-library(dplyr)
+#install.packages('dplyr')
+library('dplyr')
 data<-mtcars
 ```
 
@@ -59,10 +60,68 @@ data<-mtcars
 
 ```{r}
 # Select first to fifth column excluding hp
-new.data<- ____
+#new.data<- ____
 
 # See the output of your code
-head(new.data)
+#head(____)
+
+```
+
+
+`@solution`
+
+```{r}
+new.data<- select(data,1:5,-hp)
+```
+
+
+`@sct`
+
+```{r}
+
+```
+
+
+---
+
+## Helper functions for variable selection
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: 6944788821   
+```
+
+
+`dplyr` comes with a set of helper functions that can help you select groups of variables inside a select() call. Some of the most important are:
+
+- `starts_with("X"):` every name that starts with "X",
+- `ends_with("X"):` every name that ends with "X",
+- `contains("X"): `every name that contains "X",
+- `matches("X"):` every name that matches "X", where "X" can be a regular expression,
+
+Pay attention here: When you refer to columns directly inside select(), you don't use quotes. If you use the helper functions, you do use quotes.
+
+For instance, to select from 'yourdata' only those columns containing the word "year" in their name, you can use:
+`select(yourdata, contains("year"))`
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+data<-mtcars
+```
+
+
+`@sample_code`
+
+```{r}
 
 ```
 
