@@ -123,7 +123,60 @@ data<-mtcars
 `@sample_code`
 
 ```{r}
-# Subset those columns starting with 'd' and store it in a new object called 'variables'. 
+# Subset columns starting with 'd' and store them in a new object called 'variables'. 
+
+```
+
+
+`@solution`
+
+```{r}
+
+```
+
+
+`@sct`
+
+```{r}
+
+```
+
+
+---
+
+## Mutating  (creating)
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: 5815ff4cda   
+```
+
+
+`mutate()` creates new columns which are added to a copy of the dataset.
+
+Take this example that adds a new column, z, which is the element-wise sum of the columns x and y, to the data frame df:
+
+mutate(df, z = x + y)
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+data<-mtcars
+```
+
+
+`@sample_code`
+
+```{r}
+
 ```
 
 
