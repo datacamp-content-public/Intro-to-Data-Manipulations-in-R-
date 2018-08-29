@@ -115,6 +115,7 @@ For instance, to select from 'yourdata' only those columns containing the word "
 `@pre_exercise_code`
 
 ```{r}
+require(dplyr)
 data<-mtcars
 ```
 
