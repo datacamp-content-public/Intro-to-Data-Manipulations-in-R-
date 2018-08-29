@@ -186,6 +186,66 @@ data<-mtcars
 `@sample_code`
 
 ```{r}
+# Create a new aobject including an addictional column with the kilometres per gallog (kpg)
+```
+
+
+`@solution`
+
+```{r}
+
+```
+
+
+`@sct`
+
+```{r}
+
+```
+
+
+---
+
+## Filtering records
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: 27077dd3ca   
+```
+
+
+`Filter()` can be used the subset records based on a given criteria. R comes with a set of logical operators that you can use inside filter():
+
+- `x < y`, TRUE if `x` is less than `y`
+- `x <= y`, TRUE if `x` is less than or equal to `y`
+- `x == y`, TRUE if `x` equals `y`
+- `x != y`, TRUE if `x` does not equal `y`
+- `x >= y`, TRUE if `x` is greater than or equal to `y`
+-` x > y`, TRUE if `x` is greater than `y`
+- `x %in% c(a, b, c)`, TRUE if x is in the vector c(a, b, c)
+
+The following example filters `df` such that only the observations for which a is positive, are kept:
+
+`filter(df, a > 0)`
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
 
 ```
 
