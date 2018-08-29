@@ -107,7 +107,7 @@ For instance, to select from 'yourdata' only those columns containing the word "
 
 
 `@instructions`
-
+Create a new object called `variables` including only those columns from `data` starting with the letter 'b'.
 
 `@hint`
 
@@ -123,7 +123,7 @@ data<-mtcars
 `@sample_code`
 
 ```{r}
-
+# Subset those columns starting with 'd' and store it in a new object called 'variables'. 
 ```
 
 
