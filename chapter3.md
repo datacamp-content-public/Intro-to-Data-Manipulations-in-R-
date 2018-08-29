@@ -275,21 +275,23 @@ key: a4256ea51e
 ```
 
 
-R also comes with a set of 'boolean operators' that you can use to combine multiple conditions. Examples of these are: `&` (and), `| `(or), and `! `(not). To filter 
+R also comes with a set of 'boolean operators' that you can use to combine multiple conditions. Examples of these are: `&` (and), `| `(or), and `! `(not). For instance, to filter in a table `df` the records with positive values in column 'a' and values equal to 'yes' in column b you can use: 
 
 ```
 
 filter(df, a > 0 & b == 'yes')
-
 ```
 
 Another handy function is: `is.na()`. This example keeps the observations in df for which the variable x is not NA:
 
-`filter(df, !is.na(x))`
+```
+
+filter(df, !is.na(x))
+```
 
 
 `@instructions`
-
+Filter the vehicles from `data` weighting more than two tons (`wt` column), excluding those with 8 cylinders `(cyl)`.
 
 `@hint`
 
