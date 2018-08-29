@@ -238,7 +238,7 @@ The following example filters `df` such that only the observations for which a i
 
 ```{r}
 #install.packages(dplyr)
-library(dplyr)
+require('dplyr')
 data<- mtcars
 ```
 
