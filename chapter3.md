@@ -324,3 +324,67 @@ data<- mtcars
 ```
 
 
+---
+
+## Piping operator
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: 8f7a96ad99   
+```
+
+
+The Pipe operator `%>%` allows you to pipe the output from one function to the input of another function. Instead of nesting functions (reading from the inside to the outside), the idea of of piping is to read the functions from left to right. Have a look at the following two commands that are completely equivalent: 
+
+```{r , include=TRUE}
+# EXAMPLE 1: Inefficient method
+new.df<- select(df, mpg, wt)
+new.df<- filter(new.df, mpg >16)
+new.df<- head(new.df)
+
+# EXAMPLE 2: Using Piping operator
+new.df<- select(df, mpg, wt) %>% filter(mpg >16) %>% head()
+```
+Overview of syntax
+As another example of the %>%, 
+
+mean(c(1, 2, 3, NA), na.rm = TRUE)
+c(1, 2, 3, NA) %>% mean(na.rm = TRUE)
+The %>% operator allows you to extract the first argument of a function from the arguments list and put it in front of it, thus solving the Dagwood sandwich problem.
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
+
+```
+
+
+`@solution`
+
+```{r}
+
+```
+
+
+`@sct`
+
+```{r}
+
+```
+
+
