@@ -237,6 +237,7 @@ The following example filters `df` such that only the observations for which a i
 `@pre_exercise_code`
 
 ```{r}
+install.packages(dplyr)
 data<- mtcars
 ```
 
