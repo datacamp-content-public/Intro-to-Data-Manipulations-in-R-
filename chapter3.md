@@ -277,7 +277,11 @@ key: a4256ea51e
 
 R also comes with a set of 'boolean operators' that you can use to combine multiple conditions. Examples of these are: `&` (and), `| `(or), and `! `(not). To filter 
 
-`filter(df, a > 0 & b == 'yes')`
+```
+
+filter(df, a > 0 & b == 'yes')
+
+```
 
 Another handy function is: `is.na()`. This example keeps the observations in df for which the variable x is not NA:
 
@@ -293,7 +297,7 @@ Another handy function is: `is.na()`. This example keeps the observations in df 
 `@pre_exercise_code`
 
 ```{r}
-
+data<- mtcars
 ```
 
 
