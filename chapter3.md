@@ -299,6 +299,7 @@ Filter the vehicles from `data` weighting more than two tons (`wt` column), excl
 `@pre_exercise_code`
 
 ```{r}
+library(dplyr)
 data<- mtcars
 ```
 
