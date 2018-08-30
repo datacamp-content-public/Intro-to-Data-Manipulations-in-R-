@@ -299,7 +299,7 @@ Filter the vehicles from `data` weighting more than two tons (`wt` column), excl
 `@pre_exercise_code`
 
 ```{r}
-
+library(dplyr)
 data<- mtcars
 ```
 
@@ -351,7 +351,7 @@ The second example is more efficient and readable.
 
 
 `@instructions`
-
+Create a new object called 'weight' containing only the weight column `wt` excluding those cars with a weight lower than 2 tons
 
 `@hint`
 
@@ -366,6 +366,8 @@ The second example is more efficient and readable.
 `@sample_code`
 
 ```{r}
+# Store in a new object the weight column including only cars of more than 2 tons. 
+weight<- ___
 
 ```
 
