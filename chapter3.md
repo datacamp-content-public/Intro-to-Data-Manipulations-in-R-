@@ -436,12 +436,9 @@ You can select the top 6 by using head()
 ```{r}
 library('dplyr')
 name<- as.numeric(rownames(mtcars))
-cars<-mtcars$name
+data<-cbind(mtcars,name)
 
-data<- mtcars
-
-top<- da
-ta %>% arrange(desc(mpg)) 
+top<- data %>% arrange(desc(mpg)) 
 ```
 
 
