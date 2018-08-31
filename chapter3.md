@@ -426,7 +426,7 @@ data %>% arrange(desc(mpg))
 
 
 `@instructions`
-Create a new data frame called 'top', including only the the top 6 cars with the highest consumption of petrol `(mpg)`.
+Create a new data frame called 'top', including only the top 6 cars with the highest consumption of petrol `(mpg)`.
 
 `@hint`
 You can select the top 6 by using head()
@@ -435,8 +435,6 @@ You can select the top 6 by using head()
 
 ```{r}
 library('dplyr')
-name<- as.numeric(rownames(mtcars))
-data<-cbind(mtcars,name)
 
 top<- data %>% arrange(desc(mpg)) 
 ```

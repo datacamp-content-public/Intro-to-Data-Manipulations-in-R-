@@ -37,6 +37,7 @@ sdasad
 
 ```{r}
 library('dplyr')
+library('reshape2')
 library('data.table')
 data<- mtcars
 ```
