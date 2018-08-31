@@ -364,7 +364,8 @@ Create a new object called 'weight' containing only the weight column `wt`, and 
 `@pre_exercise_code`
 
 ```{r}
-
+library('dplyr')
+data<- mtcars
 ```
 
 
