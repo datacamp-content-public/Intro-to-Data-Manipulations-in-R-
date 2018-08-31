@@ -368,7 +368,6 @@ Create a new object called 'weight' containing only the weight column `wt` exclu
 ```{r}
 # Store in a new object the weight column including only cars of more than 2 tons. 
 weight<- ___
-
 ```
 
 
