@@ -216,7 +216,10 @@ cars<-mtcars
 `@sct`
 
 ```{r}
-
+msg1 = "Incorrect. Python can do simple and quick calculations, but it is much more than that!"
+msg2 = "Incorrect. There is a very popular framework to build database-driven websites (Django), but Python can do much more."
+msg3 = "Correct! Python is an extremely versatile language."
+test_mc(3, feedback_msgs = c(msg1, msg2, msg3))
 ```
 
 
