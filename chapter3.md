@@ -437,7 +437,6 @@ Arrange `data` in a new object called cylinders, so that vehicles with the same 
 library('dplyr')
 
 data<-mtcars
-
 ```
 
 
@@ -452,6 +451,71 @@ data<-mtcars
 
 ```{r}
 #top
+```
+
+
+`@sct`
+
+```{r}
+
+```
+
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: d7d0d83f13   
+```
+
+
+Summarising Data
+
+
+`@instructions`
+The  `summarise()` function will create summary statistics for a given column in the data frame such as finding the mean.
+
+data %>% summarise(avg_wt = mean(wt), sd_wt = sd(wt)) 
+
+- min(x) - minimum value of vector x.
+- max(x) - maximum value of vector x.
+- mean(x) - mean value of vector x.
+- median(x) - median value of vector x.
+- quantile(x, p) - pth quantile of vector x.
+- sd(x) - standard deviation of vector x.
+
+There are many other summary statistics you could consider such sd(), min(), max(), median(), sum(), n() (returns the length of vector), first() (returns first value in vector), last() (returns last value in vector) and n_distinct() (number of distinct values in vector).
+
+df %>% summarise(avg_mpg = mean(mpg),
+                 sum(wt),
+                 max(cyl))
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+library('dplyr')
+
+data<-mtcars
+```
+
+
+`@sample_code`
+
+```{r}
+
+```
+
+
+`@solution`
+
+```{r}
+
 ```
 
 
