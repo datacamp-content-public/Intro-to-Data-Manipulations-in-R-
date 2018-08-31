@@ -403,21 +403,30 @@ key: 18fa35aea6
 ```
 
 
-To arrange (or re-order) rows by a particular column, list the name of the column you want to arrange the rows by
+To arrange (or re-order) rows by a particular column, you can list the name of the column you want to arrange the rows by. 
+
+For instance, to re-ordering the `data` based on the column Miles per Gallon (mpg) you can do:
 
 ```
 data %>% arrange(mpg)
 ```
 
-Your can also re-order your data based on multiple columns, for example 
+You can also re-order your data based on multiple columns (e.g. first by miles per gallon, then by weight)
 
 ```
-data %>% arrange(mpg)
+data %>% arrange(mpg, wt)
+```
+
+By default, arrange() arranges the rows from smallest to largest. You can reverse this behavior with the desc() function. arrange() will reorder the rows from largest to smallest values of a variable if you wrap the variable name in desc() before passing it to arrange().
+
+```
+
+data %>% arrange(desc(mpg))
 ```
 
 
 `@instructions`
-
+Create a new data frame called 'top', including only the name the top 6 cars with the highest
 
 `@hint`
 
@@ -425,7 +434,8 @@ data %>% arrange(mpg)
 `@pre_exercise_code`
 
 ```{r}
-
+library('dplyr')
+data<- mtcars
 ```
 
 
