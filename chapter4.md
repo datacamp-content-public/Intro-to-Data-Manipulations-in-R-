@@ -36,8 +36,7 @@ sdasad
 `@pre_exercise_code`
 
 ```{r}
-library('reshape2')
-library('dplyr')
+library(reshape2)
 data<- mtcars
 ```
 
