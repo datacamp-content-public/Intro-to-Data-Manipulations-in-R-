@@ -178,6 +178,7 @@ Multiply the column mpg by 1.609 (`mpg * 1.609`)
 
 ```{r}
 library('dplyr')
+library('reshape2')
 data<- mtcars
 ```
 
