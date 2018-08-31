@@ -436,7 +436,7 @@ You can select the top 6 by using head()
 ```{r}
 library('dplyr')
 data<- mtcars
-top<- data %>% arrange(desac(mpg)) %>% head()
+top<- data %>% arrange(desc(mpg)) %>% head()
 ```
 
 
