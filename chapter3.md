@@ -426,7 +426,7 @@ data %>% arrange(desc(mpg))
 
 
 `@instructions`
-Arrange `data` so that vehicles with the same number of cylinder `(cyl)` appear next to each other. In addition, heavier cars should appear before lighter cars.
+Arrange `data` in a new object called cylinders, so that vehicles with the same number of cylinder `(cyl)` appear next to each other. In addition, heavier cars should appear before lighter cars.
 
 `@hint`
 
@@ -436,7 +436,8 @@ Arrange `data` so that vehicles with the same number of cylinder `(cyl)` appear 
 ```{r}
 library('dplyr')
 
-#top<- data %>% arrange(mpg)
+data<-mtcars
+
 ```
 
 
