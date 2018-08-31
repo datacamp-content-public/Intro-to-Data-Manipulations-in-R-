@@ -5,7 +5,7 @@ library(remotes)
 # install_version("ggplot2", "3.0.0")
 devtools::install_version("dplyr", "0.7.5")
 devtools::install_version("tidyr", "0.8.1")
-devtools::install_version("reshape2", "1.4.3")
+devtools::install_version("reshape2", "1.4.2")
 # install_version("purrr", "0.2.5")
 
 ##### Install packages in development from GitHub #####
