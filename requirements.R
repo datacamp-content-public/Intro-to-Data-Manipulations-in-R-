@@ -3,7 +3,6 @@ library(remotes)
 ##### Install specific package versions from CRAN #####
 
 # install_version("ggplot2", "3.0.0")
-  #install.packages('dplyr')
 devtools::install_version("dplyr", "0.7.5")
 devtools::install_version("tidyr", "0.8.1")
 devtools::install_version("reshape2", "1.4.3")
