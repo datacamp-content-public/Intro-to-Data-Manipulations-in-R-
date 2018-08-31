@@ -36,16 +36,16 @@ sdasad
 `@pre_exercise_code`
 
 ```{r}
-
+library('reshape2')
+library('dplyr')
+data<- mtcars
 ```
 
 
 `@sample_code`
 
 ```{r}
-library('reshape2')
-library('dplyr')
-data<- mtcars
+
 ```
 
 
