@@ -51,7 +51,7 @@ Using the dataframe `data`, create an new variable called: `new.data` containing
 
 ```{r}
 #install.packages('dplyr')
-library('dplyr')
+require('dplyr')
 data<-mtcars
 ```
 
