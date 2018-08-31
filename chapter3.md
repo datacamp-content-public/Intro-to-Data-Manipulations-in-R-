@@ -426,17 +426,17 @@ data %>% arrange(desc(mpg))
 
 
 `@instructions`
-Create a new data frame called 'top', including only the top 6 cars with the highest consumption of petrol `(mpg)`.
+Arrange `data` so that vehicles with the same number of cylinder `(cyl)` appear next to each other. In addition, heavier cars should appear before lighter cars.
 
 `@hint`
-You can select the top 6 by using head()
+
 
 `@pre_exercise_code`
 
 ```{r}
 library('dplyr')
 
-top<- data %>% arrange(desc(mpg)) 
+top<- data %>% arrange(mpg)
 ```
 
 
