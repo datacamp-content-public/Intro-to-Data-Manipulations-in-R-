@@ -114,7 +114,7 @@ Create a new object called `variables` including only those columns from `data` 
 `@pre_exercise_code`
 
 ```{r}
-require(dplyr)
+library(dplyr)
 data<-mtcars
 ```
 
