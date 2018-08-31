@@ -114,7 +114,7 @@ Create a new object called `variables` including only those columns from `data` 
 `@pre_exercise_code`
 
 ```{r}
-library(dplyr)
+require(dplyr)
 data<-mtcars
 ```
 
@@ -177,7 +177,8 @@ Multiply the column mpg by 1.609 (`mpg * 1.609`)
 `@pre_exercise_code`
 
 ```{r}
-data<-mtcars
+library('dplyr')
+data<- mtcars
 ```
 
 
@@ -237,8 +238,7 @@ Create a new dataset called `cylinders`
 `@pre_exercise_code`
 
 ```{r}
-#install.packages(dplyr)
-require('dplyr')
+library('dplyr')
 data<- mtcars
 ```
 
