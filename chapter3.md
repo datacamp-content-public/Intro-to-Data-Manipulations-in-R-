@@ -336,7 +336,7 @@ key: 8f7a96ad99
 ```
 
 
-The Pipe operator `%>%` allows you to pipe the output from one function to the input of another function. Instead of nesting functions (reading from the inside to the outside), the idea of of piping is to read the functions from left to right. Have a look at the following two commands that are completely equivalent: 
+The Pipe operator `%>%` allows you to pipe the output from one function to the input of another function. Instead of nesting functions (reading from the inside to the outside), the idea of piping is to read the functions from left to right. Have a look at the following two examples that are completely equivalent: 
 
 ```{r , include=TRUE}
 # EXAMPLE 1: Inefficient method
@@ -347,11 +347,16 @@ new.df<- head(new.df)
 # EXAMPLE 2: Using Piping operator
 new.df<- select(df, mpg, wt) %>% filter(mpg >16) %>% head()
 ```
-The second example is more efficient and readable.
+
+Note that the Example 2, can also be rewritten positioning the dataframe `df` that you want to manipulate at the beginning of the expression. This is a common practice to make the code more intuitive for the reader.
+
+```
+new.df<- df %>% select(mpg, wt) %>% filter(mpg >16) %>% head()
+```
 
 
 `@instructions`
-Create a new object called 'weight' containing only the weight column `wt` excluding those cars with a weight lower than 2 tons
+Create a new object called 'weight' containing only the weight column `wt`, and excluding those cars with a weight lower than 2 tons
 
 `@hint`
 
@@ -368,6 +373,64 @@ Create a new object called 'weight' containing only the weight column `wt` exclu
 ```{r}
 # Store in a new object the weight column including only cars of more than 2 tons. 
 weight<- ___
+```
+
+
+`@solution`
+
+```{r}
+
+```
+
+
+`@sct`
+
+```{r}
+
+```
+
+
+---
+
+## Reordering your data (arrange)
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: 18fa35aea6   
+```
+
+
+To arrange (or re-order) rows by a particular column, list the name of the column you want to arrange the rows by
+
+```
+data %>% arrange(mpg)
+```
+
+Your can also re-order your data based on multiple columns, for example 
+
+```
+data %>% arrange(mpg)
+```
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sample_code`
+
+```{r}
+
 ```
 
 
