@@ -436,7 +436,7 @@ Arrange `data` so that vehicles with the same number of cylinder `(cyl)` appear 
 ```{r}
 library('dplyr')
 
-top<- data %>% arrange(mpg)
+#top<- data %>% arrange(mpg)
 ```
 
 
