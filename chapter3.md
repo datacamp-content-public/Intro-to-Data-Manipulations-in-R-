@@ -137,6 +137,7 @@ data<-mtcars
 ```{r}
 # Subset columns starting with 'd' and store them in a new object called 'variables'.
 ___ <- ____
+
 ```
 
 
