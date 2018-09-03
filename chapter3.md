@@ -492,12 +492,16 @@ key: d07a8068a7
 ```
 
 
-The `summarise()` function will create summary statistics (e.g. mean) for a given column in the dataframe. For instance, to estimate the average and standard deviation of the vehicles' weight you can use the following code: 
+The `summarise()` function will create summary statistics (e.g. mean) for a given column in your dataframe. For instance, you can use the following code to estimate the average and standard deviation of the vehicles' weight: 
 
 ```
 
 > cars %>% summarise(avg_wt = mean(wt), sd_wt = sd(wt))
 ```
+
+Note in the previous code that `avg_wt` and `sd_wt` are just the names that were given to those calculations, but any other name could have been used.  
+
+Apart from `mean`, some examples of aggregating functions that you can call from summarise() are:
 
 - min(x) - minimum.
 - max(x) - maximum.
@@ -507,15 +511,13 @@ The `summarise()` function will create summary statistics (e.g. mean) for a give
 - sd(x) - standard deviation.
 - n_distinct() - number of distinct values.
 
-There are many other summary statistics you could consider such 
-
-df %>% summarise(avg_mpg = mean(mpg),
-                 sum(wt),
-                 max(cyl))
+Now, using the `summarise()` function determine how many different type of cars the dataframe contains based on the number of `gears`. Also, estimate the average Miles per Gallons (`mpg`) of all th icles in the data set.
 
 
 `@instructions`
-
+- 3 different type of cars based on the number of gears and 22.13 mpg in average.
+- 2 different type of cars based on the number of gears and 21.60 mpg in average.
+- 3 different type of cars based on the number of gears and 20.09 mpg in average.
 
 `@hint`
 
@@ -531,6 +533,12 @@ cars<-mtcars
 `@sct`
 
 ```{r}
+msg1 <- "Incorrect. Please try again"
+msg2 <- "Incorrect. Please try again"
+msg3 <- "Well done!" 
+
+ex() %>% check_mc(correct = 3,
+                  feedback_msgs = c(msg1, msg2, msg3))
 
 ```
 
