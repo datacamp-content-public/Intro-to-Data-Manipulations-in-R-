@@ -231,9 +231,9 @@ ___ <- mutate( ___ , ___ )
 ## Filtering records
 
 ```yaml
-type: NormalExercise 
-xp: 100 
-key: 27077dd3ca   
+type: MultipleChoiceExercise 
+xp: 50 
+key: d7c5a714bb   
 ```
 
 
@@ -249,11 +249,18 @@ key: 27077dd3ca
 
 The following example filters `df` such that only the observations for which a is positive, are kept:
 
-`filter(df, a > 0)`
+```
+
+filter(df, a > 0)
+```
+
+By using the function `filter()` please determine how many vehicles weight more than 3 tons (`wt`), and have only 4 cylinders (`cyl`)
 
 
 `@instructions`
-Create a new dataset called `cylinders`
+2 cars.
+3 cars.
+1 car.
 
 `@hint`
 
@@ -263,20 +270,6 @@ Create a new dataset called `cylinders`
 ```{r}
 library('dplyr')
 cars<- mtcars
-```
-
-
-`@sample_code`
-
-```{r}
-
-```
-
-
-`@solution`
-
-```{r}
-
 ```
 
 
