@@ -101,6 +101,7 @@ The operator for divisions is ( / ). For instance dividing four by two would be 
 
 ```{r}
 # Define new object called five:
+
 five <- ___
 
 
