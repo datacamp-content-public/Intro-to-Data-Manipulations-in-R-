@@ -220,7 +220,7 @@ x<- "mazda"
 `@sct`
 
 ```{r}
-ex() %>% check_object("x") %>% check_contain("mazda")
+ex() %>% check_object("x") %>% check_contains("mazda")
 ```
 
 
