@@ -137,7 +137,6 @@ cars<-mtcars
 ```{r}
 # Subset columns starting with 'd' and store them in a new object called 'variables'.
 ___ <- ____
-
 ```
 
 
@@ -208,7 +207,6 @@ cars<- mtcars
 ```{r}
 # Create a new object (kilometers) including an additional column calculating kilometres per gallog (kpg)
 ___ <- mutate( ___ , ___ )
-
 ```
 
 
@@ -539,7 +537,6 @@ msg3 <- "Well done!"
 
 ex() %>% check_mc(correct = 3,
                   feedback_msgs = c(msg1, msg2, msg3))
-
 ```
 
 
