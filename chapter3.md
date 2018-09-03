@@ -213,14 +213,14 @@ ___ <- mutate( ___ , ___ )
 `@solution`
 
 ```{r}
-
+x<- select(cars, cyl==4)
 ```
 
 
 `@sct`
 
 ```{r}
-
+ex() %>% check_object("x") %>% check_contain("cyl==4")
 ```
 
 
