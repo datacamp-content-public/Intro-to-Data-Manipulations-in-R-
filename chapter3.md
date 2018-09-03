@@ -543,3 +543,44 @@ ex() %>% check_mc(correct = 3,
 ```
 
 
+---
+
+## Group operations
+
+```yaml
+type: MultipleChoiceExercise 
+xp: 50 
+key: 364aaa0539   
+```
+
+
+The group_by() verb is an important function in dplyr.  We literally want to split the data frame by some variable (e.g. taxonomic order), apply a function to the individual data frames and then combine the output.
+
+Let's do that: split df.new by the type of transmission (am), then ask for the same summary statistics as above. We expect a set of summary statistics for each taxonomic order.
+
+```
+
+new.df %>% group_by(am) %>% summarise(mean(mpg)) 
+```
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
+`@sct`
+
+```{r}
+
+```
+
+
