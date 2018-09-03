@@ -237,7 +237,7 @@ key: 27077dd3ca
 ```
 
 
-`Filter()` can be used the subset records based on a given criteria. R comes with a set of logical operators that you can use inside filter():
+`Filter()` can be used the subset records based on a given criteria. R comes with a set of logical operators that you can use inside `filter()`:
 
 - `x < y`, TRUE if `x` is less than `y`
 - `x <= y`, TRUE if `x` is less than or equal to `y`
@@ -262,7 +262,7 @@ Create a new dataset called `cylinders`
 
 ```{r}
 library('dplyr')
-data<- mtcars
+cars<- mtcars
 ```
 
 
