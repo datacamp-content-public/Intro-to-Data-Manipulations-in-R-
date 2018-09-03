@@ -93,7 +93,7 @@ The operator for divisions is ( / ). For instance dividing four by two would be 
 `@pre_exercise_code`
 
 ```{r}
-
+five <- 
 ```
 
 
