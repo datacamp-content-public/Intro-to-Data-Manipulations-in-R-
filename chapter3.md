@@ -119,7 +119,7 @@ select(yourdata, contains("year"))
 
 
 `@instructions`
-Create a new object called `variables` including only those columns from `data` starting with the letter 'b'.
+Create a new object called `variables` including only those columns from `cars` starting with the letter 'b'.
 
 `@hint`
 
@@ -128,7 +128,7 @@ Create a new object called `variables` including only those columns from `data` 
 
 ```{r}
 require(dplyr)
-data<-mtcars
+cars<-mtcars
 ```
 
 
@@ -168,17 +168,23 @@ key: 5815ff4cda
 
 `mutate()` creates new columns which are added to a copy of the dataset.
 
-Take this example that adds a new column, z, which is the element-wise sum of the columns x and y, to the data frame df:
+Take this example that adds a new column, z, which is the element-wise sum of the columns x and y, to the dataframe `df`:
 
-`mutate(df, z = x + y)`
+```
+
+mutate(df, z = x + y)
+```
 
 In the previous example, if there was a column already called `z`, R would replace the column values with the new calculation. Otherwise, a new column called `z` will be created with the calculation. 
 
-You can also use mutate() to add multiple variables at once. Just place a comma between each variable that you define inside mutate().
+You can also use `mutate()` to add multiple variables at once. Just place a comma between each variable that you define inside `mutate()`.
 
 In the following example, a new variable `x` is directly reused to create the new variable `y`:
 
-`mutate(my_data, x = a + b, y = x + c)`
+```
+
+mutate(my_data, x = a + b, y = x + c)
+```
 
 
 `@instructions`
