@@ -101,7 +101,7 @@ key: 6944788821
 ```
 
 
-`dplyr` comes with a set of helper functions that can help you select groups of variables inside a select() call. Some of the most important are:
+`dplyr` comes with a set of helper functions that can help you select groups of variables inside a `select()` call. Some of the most important are:
 
 - `starts_with("X"):` every name that starts with "X",
 - `ends_with("X"):` every name that ends with "X",
@@ -111,7 +111,11 @@ key: 6944788821
 Pay attention here: When you refer to columns directly inside select(), you don't use quotes. If you use the helper functions, you do use quotes.
 
 For instance, to select from 'yourdata' only those columns containing the word "year" in their name, you can use:
-`select(yourdata, contains("year"))`
+
+```
+
+select(yourdata, contains("year"))
+```
 
 
 `@instructions`
@@ -132,6 +136,7 @@ data<-mtcars
 
 ```{r}
 # Subset columns starting with 'd' and store them in a new object called 'variables'.
+___ <- ____
 ```
 
 
