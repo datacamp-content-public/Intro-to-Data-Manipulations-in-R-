@@ -126,7 +126,7 @@ success_msg("amazing!")
 
 ---
 
-## Exploring data
+## Exploring your data (1/2)
 
 ```yaml
 type: MultipleChoiceExercise 
@@ -135,12 +135,12 @@ key: acd6cc7235
 ```
 
 
-We have created a new object called `data`. It contains a table (or dataframe as it is called in R) with information about different cars.
+We have created a new object called `cars`. It contains a table (or dataframe as it is called in R) with information about different cars.
 
 You can explore the first 6 records contained in the object `data`, by using the function:
 `head()`
 
-By using the function `head()`, please select the model of the car that appears in the fist row of `data`
+By using the function `head()`, please select the model of the car that appears in the fist row of `cars`
 
 
 `@instructions`
@@ -155,7 +155,7 @@ To explore a dataframe called 'x' you would use `head(x)`
 `@pre_exercise_code`
 
 ```{r}
-data<-mtcars
+cars<-mtcars
 ```
 
 
@@ -174,55 +174,7 @@ ex() %>% check_mc(correct = 3,
 
 ---
 
-## Explore data
-
-```yaml
-type: NormalExercise 
-xp: 100 
-key: 5587700676   
-```
-
-
-
-
-
-`@instructions`
-
-
-`@hint`
-
-
-`@pre_exercise_code`
-
-```{r}
-
-```
-
-
-`@sample_code`
-
-```{r}
-
-```
-
-
-`@solution`
-
-```{r}
-head(data)
-```
-
-
-`@sct`
-
-```{r}
-
-```
-
-
----
-
-## Insert exercise title here
+## Exploring your data (2/2)
 
 ```yaml
 type: MultipleChoiceExercise 
