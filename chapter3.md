@@ -262,7 +262,7 @@ Create a new dataset called `cylinders`
 
 ```{r}
 library('dplyr')
-data<- mtcars
+cars<- mtcars
 ```
 
 
