@@ -188,7 +188,7 @@ mutate(my_data, x = a + b, y = x + c)
 
 
 `@instructions`
-Create a new object called kilometres. The new object must contain the `data` about cars plus an additional column estimating the kilometres per gallon (kpg) consumed by the vehicles.  
+Create a new object called kilometres. The new object must contain all the data included in the dataframe `cars`, plus an additional column estimating the kilometres per gallon (kpg) consumed by each vehicles.  
 
 One mile per gallon `(mpg)` is equivalent to 1.609 kpg.
 
@@ -199,15 +199,16 @@ Multiply the column mpg by 1.609 (`mpg * 1.609`)
 
 ```{r}
 library('dplyr')
-#library('reshape2')
-data<- mtcars
+cars<- mtcars
 ```
 
 
 `@sample_code`
 
 ```{r}
-# Create a new aobject including an addictional column with the kilometres per gallog (kpg)
+# Create a new object (kilometers) including an additional column calculating kilometres per gallog (kpg)
+___ <- mutate( ___ , ___ )
+
 ```
 
 
