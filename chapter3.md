@@ -258,9 +258,9 @@ By using the function `filter()` please determine how many vehicles weight more 
 
 
 `@instructions`
-2 cars.
-3 cars.
-1 car.
+- 2 cars.
+- 3 cars.
+- 1 car.
 
 `@hint`
 
@@ -276,7 +276,12 @@ cars<- mtcars
 `@sct`
 
 ```{r}
+msg1 <- "Well done!" 
+msg2 <- "Incorrect. Please try again"
+msg3 <- "Incorrect. Please try again"
 
+ex() %>% check_mc(correct = 1,
+                  feedback_msgs = c(msg1, msg2, msg3))
 ```
 
 
