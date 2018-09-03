@@ -126,12 +126,12 @@ success_msg("amazing!")
 
 ---
 
-## Explore data
+## Exploring data
 
 ```yaml
-type: NormalExercise 
-xp: 100 
-key: 5587700676   
+type: MultipleChoiceExercise 
+xp: 50 
+key: acd6cc7235   
 ```
 
 
@@ -140,9 +140,14 @@ We have created a new object called `data`. It contains a table (or dataframe as
 You can explore the first 6 records contained in the object `data`, by using the function:
 `head()`
 
+By using the function `head()`, please select the model of the car that appears in the fist row of `data`
+
 
 `@instructions`
-Explore the layout of the object `data` using the function `head()`
+- Mazda RX4 Wag    
+- Hornet Sportabout
+- Hornet 4 Drive   
+- Mazda RX4
 
 `@hint`
 To explore a dataframe called 'x' you would use `head(x)`
@@ -154,10 +159,50 @@ data<-mtcars
 ```
 
 
+`@sct`
+
+```{r}
+msg1 <- "Incorrect. Please try again" 
+msg2 <- "Incorrect. Please try again"
+msg3 <- "Incorrect. Please try again"
+msg4 <- "Correct"
+
+ex() %>% check_mc(correct = 3,
+                  feedback_msgs = c(msg1, msg2, msg3, msg4))
+```
+
+
+---
+
+## Explore data
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: 5587700676   
+```
+
+
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{r}
+
+```
+
+
 `@sample_code`
 
 ```{r}
-# Explore object 'data' using the function head()
+
 ```
 
 
@@ -171,10 +216,7 @@ head(data)
 `@sct`
 
 ```{r}
-msg1 = "Incorrect. Python can do simple and quick calculations, but it is much more than that!"
-msg2 = "Incorrect. There is a very popular framework to build database-driven websites (Django), but Python can do much more."
-msg3 = "Correct! Python is an extremely versatile language."
-test_mc(3, feedback_msgs = c(msg1, msg2, msg3))
+
 ```
 
 
