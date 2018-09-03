@@ -492,9 +492,12 @@ key: d07a8068a7
 ```
 
 
-The  `summarise()` function will create summary statistics for a given column in the datailframe such as finding the mean.
+The `summarise()` function will create summary statistics (e.g. mean) for a given column in the dataframe. For instance, to estimate the average and standard deviation of the vehicles' weight you can use the following code: 
 
-data %>% summarise(avg_wt = mean(wt), sd_wt = sd(wt)) 
+```
+
+> cars %>% summarise(avg_wt = mean(wt), sd_wt = sd(wt))
+```
 
 - min(x) - minimum.
 - max(x) - maximum.
