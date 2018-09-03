@@ -556,12 +556,14 @@ key: 364aaa0539
 
 The `group_by()` verb allows you to split the dataframe by some variable (e.g. number of cylinders), and then apply summarising statistics for the different groups separately
 
-For instance,  split df.new by the type of transmission (am), then ask for the same summary statistics as above. We expect a set of summary statistics for each taxonomic order.
+For instance, to compare the average weight (`wt`) of cars with different type of transmission (`am`), you can use the following code:
 
 ```
 
-new.df %>% group_by(am) %>% summarise(mean(mpg)) 
+cars %>% group_by(am) %>% summarise(mean(mpg)) 
 ```
+
+Now, by combining `group_by()` and `summarise()` indicate the the average petrol consumption (`mpg`) depending on the number of cylinders that vehicles have.
 
 
 `@instructions`
@@ -581,7 +583,12 @@ cars<-mtcars
 `@sct`
 
 ```{r}
+msg1 <- "Incorrect. Please try again"
+msg2 <- "Incorrect. Please try again"
+msg3 <- "Well done!" 
 
+ex() %>% check_mc(correct = 3,
+                  feedback_msgs = c(msg1, msg2, msg3))
 ```
 
 
