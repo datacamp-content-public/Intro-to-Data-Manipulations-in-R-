@@ -483,35 +483,36 @@ data<-mtcars
 
 ---
 
-## Insert exercise title here
+## Summarising data
 
 ```yaml
-type: NormalExercise 
-xp: 100 
-key: d7d0d83f13   
+type: MultipleChoiceExercise 
+xp: 50 
+key: d07a8068a7   
 ```
 
 
-Summarising Data
-
-
-`@instructions`
-The  `summarise()` function will create summary statistics for a given column in the data frame such as finding the mean.
+The  `summarise()` function will create summary statistics for a given column in the datailframe such as finding the mean.
 
 data %>% summarise(avg_wt = mean(wt), sd_wt = sd(wt)) 
 
-- min(x) - minimum value of vector x.
-- max(x) - maximum value of vector x.
-- mean(x) - mean value of vector x.
-- median(x) - median value of vector x.
-- quantile(x, p) - pth quantile of vector x.
-- sd(x) - standard deviation of vector x.
+- min(x) - minimum.
+- max(x) - maximum.
+- mean(x) - mean.
+- median(x) - median.
+- quantile(x, p) - pth quantile.
+- sd(x) - standard deviation.
+- n_distinct() - number of distinct values.
 
-There are many other summary statistics you could consider such sd(), min(), max(), median(), sum(), n() (returns the length of vector), first() (returns first value in vector), last() (returns last value in vector) and n_distinct() (number of distinct values in vector).
+There are many other summary statistics you could consider such 
 
 df %>% summarise(avg_mpg = mean(mpg),
                  sum(wt),
                  max(cyl))
+
+
+`@instructions`
+
 
 `@hint`
 
@@ -520,22 +521,7 @@ df %>% summarise(avg_mpg = mean(mpg),
 
 ```{r}
 library('dplyr')
-
-data<-mtcars
-```
-
-
-`@sample_code`
-
-```{r}
-
-```
-
-
-`@solution`
-
-```{r}
-
+cars<-mtcars
 ```
 
 
