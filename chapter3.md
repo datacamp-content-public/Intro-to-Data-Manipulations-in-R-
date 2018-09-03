@@ -321,7 +321,7 @@ Filter the vehicles from `data` weighting more than two tons (`wt` column), excl
 
 ```{r}
 library(dplyr)
-data<- mtcars
+cars<- mtcars
 ```
 
 
