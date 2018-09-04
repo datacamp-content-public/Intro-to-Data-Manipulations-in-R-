@@ -3,12 +3,12 @@ library(remotes)
 ##### Install specific package versions from CRAN #####
 
 # install_version("ggplot2", "3.0.0")
-install.packages("reshape2")
+#install.packages("reshape2")
 #devtools::install_version("reshape2", "1.4.3")
 devtools::install_version("dplyr", "0.7.5")
 #devtools::install_version("tidyr", "0.8.1")
 #install.packages("reshape2")
-#devtools::install_version("data.table", "1.11.4")
+devtools::install_version("data.table", "1.11.4")
 # install_version("purrr", "0.2.5")
 
 ##### Install packages in development from GitHub #####
