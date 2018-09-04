@@ -36,10 +36,10 @@ sdasad
 `@pre_exercise_code`
 
 ```{r}
+library('reshape2')
 library('dplyr')
-require('reshape2')
 #library('data.table')
-data<- mtcars
+cars<- mtcars
 ```
 
 
