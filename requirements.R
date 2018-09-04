@@ -4,7 +4,7 @@ library(remotes)
 
 # install_version("ggplot2", "3.0.0")
 #install.packages("reshape2")
-#devtools::install_version("reshape2", "1.4.3")
+devtools::install_version("reshape2", "1.4.3")
 devtools::install_version("dplyr", "0.7.5")
 #devtools::install_version("tidyr", "0.8.1")
 #install.packages("reshape2")
