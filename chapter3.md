@@ -557,14 +557,16 @@ For instance, to compare the average weight (`wt`) of cars with different type o
 
 ```
 
-cars %>% group_by(am) %>% summarise(mean(mpg)) 
+cars %>% group_by(am) %>% summarise(mean(wt)) 
 ```
 
-Now, by combining `group_by()` and `summarise()` indicate the the average petrol consumption (`mpg`) depending on the number of cylinders that vehicles have.
+Your challenge now is to combine `group_by()` and `summarise()` to find out how many gears (`gear`) have the vehicles with the highest average petrol consumption (`mpg`).
 
 
 `@instructions`
-
+- 3 gears.
+- 4 gears.
+- 5 gears.
 
 `@hint`
 
@@ -581,10 +583,10 @@ cars<-mtcars
 
 ```{r}
 msg1 <- "Incorrect. Please try again"
-msg2 <- "Incorrect. Please try again"
-msg3 <- "Well done!" 
+msg2 <- "That's correct, cars with 4 gears have the highest average mpg (24.5)"
+msg3 <- "Incorrect. Please try again" 
 
-ex() %>% check_mc(correct = 3,
+ex() %>% check_mc(correct = 2,
                   feedback_msgs = c(msg1, msg2, msg3))
 ```
 
