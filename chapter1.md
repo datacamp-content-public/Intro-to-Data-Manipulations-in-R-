@@ -6,9 +6,9 @@ description: ""
 ## Introduction to R
 
 ```yaml
-type: VideoExercise 
-xp: 50 
-key: 6ad837a887   
+type: VideoExercise
+key: 6ad837a887
+xp: 50
 ```
 
 `@projector_key`
